@@ -1,0 +1,13 @@
+body, #app{
+    margin: 0;
+
+}
+.addList{
+    position: absolute;
+    display: flex;
+    z-index: 98;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+}
+

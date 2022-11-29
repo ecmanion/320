@@ -1,0 +1,190 @@
+.view-your-recipes{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15%;
+    .photo-and-description{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20%;
+        .photo{
+            flex-direction: row;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width: 50%;
+            padding-right: 5%;
+            .recipe-name-box{
+                width: 10%;
+                display: flex;
+                justify-content: center;
+                h1{
+                letter-spacing: 5px;
+                font-family: Lato;
+                transform: rotate(-90deg);
+                font-size: 25px;
+            }
+            }
+            
+            .your-image{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 350px;
+                width: 350px;
+                img{
+                    height: auto;
+                    max-width: 100%;
+                    object-fit: cover;
+                }
+            }
+            
+        }
+        .description{
+            width: 50%;
+
+            h1,h2{
+                font-family: Lato;
+                letter-spacing: 5px;
+            }
+            p,h6{
+                font-family: Caveat;
+                letter-spacing: 4px;
+                font-size: 15px;
+            }
+        }
+    }
+    .ingredients-and-instructions{
+        margin-top: 5%;
+        width: 80%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    h1{
+       font-family: Lato;
+       font-size: 20px;
+       letter-spacing: 5px;
+    }
+    h6{
+        font-family: Caveat;
+        font-size: 15px;
+        letter-spacing: 4px;
+    } 
+}
+.edit-recipe-button-box{
+    width: 80%;
+    #edit{
+    height: 60px;
+    width: 150px;
+    background-color: #FFD972;
+    font-family: Caveat;
+    border-radius: 26px;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+}
+
+}
+
+@media screen and (max-width: 960px){
+    .view-your-recipes{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10%;
+        .photo-and-description{
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+            .photo{
+                flex-direction: row;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                width: 100%;
+                .recipe-name-box{
+                    width: 10%;
+                    display: flex;
+                    justify-content: center;
+                    h1{
+                    letter-spacing: 5px;
+                    font-family: Lato;
+                    transform: rotate(-90deg);
+                    font-size: 25px;
+                }
+                }
+                
+                .your-image{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    height: 350px;
+                    width: 350px;
+                    img{
+                        height: auto;
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                
+            }
+            .description{
+                width: 80%;
+                h1,h2{
+                    font-family: Lato;
+                    letter-spacing: 5px;
+                }
+                p,h6{
+                    font-family: Caveat;
+                    letter-spacing: 4px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .ingredients-and-instructions{
+            margin-top: 5%;
+            width: 65%;
+            height: 50%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        h1{
+           font-family: Lato;
+           font-size: 20px;
+           letter-spacing: 5px;
+        }
+        h6{
+            font-family: Caveat;
+            font-size: 15px;
+            letter-spacing: i4px;
+        } 
+    }
+    .edit-recipe-button-box{
+        width: 65%;
+        .edit-recipe-button{
+        height: 40px;
+        width: 130px;
+        background-color: #FFD972;
+        font-family: Caveat;
+        border-radius: 26px;
+        border: none;
+    }
+    }
+    
+    } 
+}

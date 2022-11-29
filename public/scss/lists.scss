@@ -1,0 +1,20 @@
+li{
+    cursor: pointer;
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    padding-left: 3%;
+    position: relative;
+    margin-right: 5%;
+}
+
+li:nth-child(odd){
+    background-color: rgb(212, 229, 248);
+    border: 1px solid rgb(192, 192, 192);
+}
+li:nth-child(even){
+    border: 1px solid rgb(192, 192, 192);
+
+}

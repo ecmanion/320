@@ -1,0 +1,292 @@
+.create-recipe{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        flex-direction: column;
+        margin-top: 10%;
+        h1{
+            margin: 3%;
+            font-family: Caveat-Bold;
+            font-size: 25px;
+            width: 80%;
+            letter-spacing: 2.5px;
+            display: flex;
+        }
+        input{
+            width: 80%;
+            margin-bottom: 2%;
+            margin-top: 1%;
+            border-right: 0;
+            border-left: 0;
+            border-top: 0;
+            border-bottom: 2px solid black;
+            font-family: Lato;
+            font-size: 15px;
+            letter-spacing: 2px;
+            padding-bottom: 5px;
+        }
+        .add-recipe-image{
+            width: 80%;
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-end;
+            height: 60px;
+            padding: 0;
+            margin: 0;        
+            input{
+                width: 100%;
+                position: relative;
+            }
+            
+            .attach-file{
+                width: 110px;
+                height: 35px;;
+                border-radius: 25px;
+                background-color: #EFA7A7;
+                box-shadow: 0px 10px 6px #00000029;
+                border: none;
+                font-family: Caveat;
+                position: absolute;
+                z-index: 70;
+              
+            }
+        }
+
+        .add-ingredient{
+            width: 80%;
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-end;
+            height: 60px;
+            padding: 0;
+            margin: 0;        
+            input{
+                width: 100%;
+                position: relative;
+            }
+            
+            .add-ingredient-button{
+                width: 35px;
+                height: 35px;;
+                border-radius: 25px;
+                background-color: #EFA7A7;
+                box-shadow: 0px 10px 6px #00000029;
+                border: none;
+                font-family: Caveat;
+                position: absolute;
+                z-index: 70;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                justify-content:center;
+                align-items: flex-end;
+                padding-right: 10px;
+            }
+        }
+
+        .add-instruction{
+            width: 80%;
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-end;
+            height: 60px;
+            padding: 0;
+            margin: 0;        
+            input{
+                width: 100%;
+                position: relative;
+            }
+            
+            .add-instruction-button{
+                width: 35px;
+                height: 35px;;
+                border-radius: 25px;
+                background-color: #EFA7A7;
+                box-shadow: 0px 10px 6px #00000029;
+                border: none;
+                font-family: Caveat;
+                position: absolute;
+                z-index: 70;
+                font-size: 30px;
+                color: white;
+                display: flex;
+                justify-content:center;
+                align-items: flex-end;
+                padding-right: 10px;
+            }
+        }
+
+        h2{
+            width: 80%;
+            font-size: 15px;
+            font-family: Lato;
+            margin-top: 5%;
+            letter-spacing: 2px;
+        }
+        #createSubmit{
+            background-color: #EFA7A7;
+            box-shadow: 0px 10px 6px #00000029;
+            border-radius: 26px;
+            border: none;
+            height: 50px;
+            width: 420px;
+            font-family: Caveat;
+            font-size: 20px;
+        }
+}
+}
+
+@media screen and (max-width: 575px){
+
+    .create-recipe{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            flex-direction: column;
+            margin-top: 10%;
+            h1{
+                margin: 3%;
+                font-family: Caveat-Bold;
+                font-size: 25px;
+                width: 80%;
+            }
+            input{
+                width: 80%;
+                margin-bottom: 2%;
+                margin-top: 1%;
+                border-right: 0;
+                border-left: 0;
+                border-top: 0;
+                border-bottom: 2px solid black;
+                font-family: Lato;
+                font-size: 15px;
+                letter-spacing: 2px;
+                padding-bottom: 5px;
+            }
+            .add-recipe-image{
+                width: 80%;
+                flex-direction: row;
+                display: flex;
+                justify-content: flex-end;
+                height: 60px;
+                padding: 0;
+                margin: 0;        
+                input{
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .attach-file{
+                    width: 75px;
+                    height: 35px;;
+                    border-radius: 25px;
+                    background-color: #EFA7A7;
+                    box-shadow: 0px 10px 6px #00000029;
+                    border: none;
+                    font-family: Caveat;
+                    position: absolute;
+                    z-index: 70;
+                  
+                }
+            }
+
+            .add-ingredient{
+                width: 80%;
+                flex-direction: row;
+                display: flex;
+                justify-content: flex-end;
+                height: 60px;
+                padding: 0;
+                margin: 0;        
+                input{
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .add-ingredient-button{
+                    width: 30px;
+                    height: 30px;;
+                    border-radius: 25px;
+                    background-color: #EFA7A7;
+                    box-shadow: 0px 10px 6px #00000029;
+                    border: none;
+                    font-family: Caveat;
+                    position: absolute;
+                    z-index: 70;
+                    font-size: 30px;
+                    color: white;
+                    display: flex;
+                    justify-content:center;
+                    align-items: flex-end;
+                    padding-right: 10px;
+                }
+            }
+    
+            .add-instruction{
+                width: 80%;
+                flex-direction: row;
+                display: flex;
+                justify-content: flex-end;
+                height: 60px;
+                padding: 0;
+                margin: 0;        
+                input{
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .add-instruction-button{
+                    width: 30px;
+                    height: 30px;;
+                    border-radius: 25px;
+                    background-color: #EFA7A7;
+                    box-shadow: 0px 10px 6px #00000029;
+                    border: none;
+                    font-family: Caveat;
+                    position: absolute;
+                    z-index: 70;
+                    font-size: 30px;
+                    color: white;
+                    display: flex;
+                    justify-content:center;
+                    align-items: flex-end;
+                    padding-right: 10px;
+                }
+            }
+
+            h2{
+                width: 80%;
+                font-size: 15px;
+                font-family: Lato;
+                margin-top: 5%;
+                letter-spacing: 2px;
+            }
+            #createSubmit{
+                background-color: #EFA7A7;
+                box-shadow: 0px 10px 6px #00000029;
+                border-radius: 26px;
+                border: none;
+                height: 50px;
+                width: 150px;
+                font-family: Caveat;
+                margin-top: 5%;
+                font-size: 20px;
+            }
+    }
+    }
+}
+ 

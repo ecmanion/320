@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jungle Cook</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-home">
+          <img src="images/logo.png" alt="logo">
+      </div>
+      <div class="bars">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+      <div class="links">
+          <div class="logo">
+              <img src="images/logo.png" alt="logo">
+          </div>
+          <div class="anchors">
+          <a id="home" href="#">Home</a>
+          <a id="browse" href="#">Browse</a>
+          <a id="createRecipe" href="#">Create Recipe</a>
+          <a class="navYourRecipe" id="yourRecipe" href="#">Your Recipes</a>
+          <button class="loadLists" onclick="loadLists()">Load Lists</button>
+          <a id="log" class="logButton" href="#">Login</a>
+          <button class="signOut" onclick="signOut()">Logout</button>
+          </div>
+      </div>
+  </nav>
+  <div class="addList">
+    <input type="text" id="listName" placeholder="New List:">
+    <input type="submit" name="submit" onclick="addMainList()" value="Add List">
+    </div>
+  <div id="app">
+
+  </div>
+  
+
+
+
+    <footer>
+      <div class="copyright">
+        <h6>Copyright © 2022 The Jungle Cook</h6>
+      </div>
+      <div class="footer-links">
+        <h6>Login</h6>
+        <h6>Recipes by Category</h6>
+        <h6>Privacy and Copyright</h6>
+        <h6>Create Recipe</h6>
+        <h6>Your Recipes</h6>
+      </div>
+      <div class="footer-socials">
+        <img class="social-logo" src="images/facebook (2).svg" alt="Facebook">
+        <img class="social-logo" src="images/instagram.svg" alt="Instagram">
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.14.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.14.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.14.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="model/model.js"></script>
+    <script src="app/app.js"></script>
+ 
+  </body>
+</html>
